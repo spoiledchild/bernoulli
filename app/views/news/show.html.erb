@@ -15,5 +15,20 @@
   <%= @news.post %>
 </p>
 
+<p>
+  <strong>Title_English:</strong>
+  <%= @news.TitleEn %>
+</p>
+
+<p>
+  <strong>Date:</strong>
+  <%= @news.date %>
+</p>
+
+<p>
+  <strong>Post_English:</strong>
+  <%= @news.PostEn %>
+</p>
+
 <%= link_to 'Edit', edit_news_path(@news) %> |
 <%= link_to 'Back', news_index_path %>
