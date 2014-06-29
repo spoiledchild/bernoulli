@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  get 'news_en/:id' => 'news#show'
   resources :news
 
   # The priority is based upon order of creation: first created -> highest priority.

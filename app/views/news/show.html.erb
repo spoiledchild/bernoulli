@@ -1,19 +1,11 @@
 <p id="notice"><%= notice %></p>
 
 <p>
-  <strong>Title:</strong>
-  <%= @news.title %>
-</p>
-
-<p>
   <strong>Date:</strong>
   <%= @news.date %>
 </p>
 
-<p>
-  <strong>Post:</strong>
-  <%= @news.post %>
-</p>
+<% if request.path.include?('news_en') %>
 
 <p>
   <strong>Title_English:</strong>
@@ -21,14 +13,23 @@
 </p>
 
 <p>
-  <strong>Date:</strong>
-  <%= @news.date %>
-</p>
-
-<p>
   <strong>Post_English:</strong>
   <%= @news.PostEn %>
 </p>
+
+<% else %>
+
+<p>
+  <strong>Title:</strong>
+  <%= @news.title %>
+</p>
+
+<p>
+  <strong>Post:</strong>
+  <%= @news.post %>
+</p>
+
+<% end %>
 
 <%= link_to 'Edit', edit_news_path(@news) %> |
 <%= link_to 'Back', news_index_path %>
