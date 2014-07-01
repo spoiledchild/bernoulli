@@ -17,6 +17,10 @@
   <%= @news.PostEn %>
 </p>
 
+<p>
+  <strong>Publisher:</strong>
+  <%= @news.Publisher %>
+</p>
 <% else %>
 
 <p>
@@ -29,6 +33,10 @@
   <%= @news.post %>
 </p>
 
+<p>
+  <strong>Publisher:</strong>
+  <%= @news.Publisher %>
+</p>
 <% end %>
 
 <%= link_to 'Edit', edit_news_path(@news) %> |
