@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  resources :research_interests
+
   root 'news#index'
   get 'news_en/:id' => 'news#show'
   resources :news

@@ -1,0 +1,34 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Research introduciton:</strong>
+  <%= @research_interest.research_introduciton %>
+</p>
+
+<p>
+  <strong>Research topic:</strong>
+  <%= @research_interest.research_topic %>
+</p>
+
+<p>
+  <strong>Research topic en:</strong>
+  <%= @research_interest.research_topic_en %>
+</p>
+
+<p>
+  <strong>Research details:</strong>
+  <%= @research_interest.research_details %>
+</p>
+
+<p>
+  <strong>Research details en:</strong>
+  <%= @research_interest.research_details_en %>
+</p>
+
+<p>
+  <strong>Current projects:</strong>
+  <%= @research_interest.current_projects %>
+</p>
+
+<%= link_to 'Edit', edit_research_interest_path(@research_interest) %> |
+<%= link_to 'Back', research_interests_path %>

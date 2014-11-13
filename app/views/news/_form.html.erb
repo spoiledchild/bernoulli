@@ -12,43 +12,43 @@
   <% end %>
   <form class="form-horizontal" role="form">
   <div class="form-group">
-    <%= f.label :date, { :class => "col-sm-2 control-label" } %><br>
+    <%= f.label :新聞日期, { :class => "col-sm-2 control-label" } %><br>
     <div class="col-sm-10">
     <%= f.datetime_select :date, { :class => "col-sm-10 form-control" } %>
     </div>
   </div>
   <div class="form-group">
-    <%= f.label :Publisher, { :class => "col-sm-2 control-label" } %><br>
+    <%= f.label :發佈者, { :class => "col-sm-2 control-label" } %><br>
     <div class="col-sm-10">
     <%= f.text_field :Publisher, { :class => "col-sm-10 form-control"} %>
     </div>
   </div>
   <div class="form-group">
-    <%= f.label :Title, { :class => "col-sm-2 control-label" } %><br>
+    <%= f.label :新聞標題, { :class => "col-sm-2 control-label" } %><br>
     <div class="col-sm-10">
     <%= f.text_field :title, { :class => "col-sm-10 form-control"} %>
     </div>
   </div>
   <div class="form-group">
-    <%= f.label :Post, { :class => "col-sm-2 control-label" } %><br>
+    <%= f.label :新聞內容, { :class => "col-sm-2 control-label" } %><br>
     <div class="col-sm-10">
     <%= f.text_area :post, { :class => "col-sm-10 form-control"} %>
     </div>
   </div>
   <div class="form-group">
-    <%= f.label :Title_En, { :class => "col-sm-2 control-label" } %><br>
+    <%= f.label :'News Title', { :class => "col-sm-2 control-label" } %><br>
     <div class="col-sm-10">
     <%= f.text_field :TitleEn, { :class => "col-sm-10 form-control"} %>
     </div>
   </div>
   <div class="form-group">
-    <%= f.label :Post_En, { :class => "col-sm-2 control-label" }  %><br>
+    <%= f.label :'News context', { :class => "col-sm-2 control-label" }  %><br>
     <div class="col-sm-10">
     <%= f.text_field :PostEn, { :class => "col-sm-10 form-control"} %>
     </div>
   </div>
   <div class="col-sm-offset-2 col-sm-10">
-    <%= f.submit 'Post', { :class => "btn btn-default" } %>
+    <%= f.submit '發佈', data: { confirm: '確定要發佈這篇新聞嗎?' , :class => "btn btn-default" } %>
   </div>
   </form>
 <% end %>

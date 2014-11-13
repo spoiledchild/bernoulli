@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20140630140115) do
+ActiveRecord::Schema.define(version: 20140823095030) do
 
   create_table "news", force: true do |t|
     t.string   "title"
@@ -22,6 +22,17 @@ ActiveRecord::Schema.define(version: 20140630140115) do
     t.text     "PostEn"
     t.string   "TitleEn"
     t.string   "Publisher"
+  end
+
+  create_table "research_interests", force: true do |t|
+    t.text     "research_introduciton"
+    t.string   "research_topic"
+    t.string   "research_topic_en"
+    t.text     "research_details"
+    t.text     "research_details_en"
+    t.text     "current_projects"
+    t.datetime "created_at"
+    t.datetime "updated_at"
   end
 
 end

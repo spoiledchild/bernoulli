@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VisualLightBox>
+    <Gallery version="2.5">
+        <Settings>
+            <AppName>cssSlider</AppName>
+            <AppUrlS>cssSlider.com</AppUrlS>
+            <AppVersion>1.3</AppVersion>
+            <AutoPlay>true</AutoPlay>
+            <Captions>false</Captions>
+            <CaptionsEffect>slide</CaptionsEffect>
+            <Controls>true</Controls>
+            <GalleryDesc></GalleryDesc>
+            <GalleryKeywords></GalleryKeywords>
+            <GalleryName>test</GalleryName>
+            <GallerySuffix>1</GallerySuffix>
+            <GalleryTitle></GalleryTitle>
+            <HtmlCharset>UTF-8</HtmlCharset>
+            <ImageAspectRatio>true</ImageAspectRatio>
+            <ImageEffect>fade</ImageEffect>
+            <ImageFillColor>#FFFFFF</ImageFillColor>
+            <ImageHeight>768</ImageHeight>
+            <ImageQuality>100</ImageQuality>
+            <ImageShrink2>false</ImageShrink2>
+            <ImageStretch>true</ImageStretch>
+            <ImageTemplate>:/templates/backgnd/geometric/</ImageTemplate>
+            <ImageTemplateName>Geometric</ImageTemplateName>
+            <ImageWidth>1024</ImageWidth>
+            <Images>true</Images>
+            <JoomlaType>2.5</JoomlaType>
+            <OneLoop>false</OneLoop>
+            <PlayPause>false</PlayPause>
+            <PublishFileName>C:/Users/Ming-Yi Wang/Documents/cssSlider/cssslider.html</PublishFileName>
+            <PublishIndex>cssslider.html</PublishIndex>
+            <PublishPath>C:/Users/Ming-Yi Wang/Documents/cssSlider</PublishPath>
+            <PublishPreview>true</PublishPreview>
+            <PublishType>file</PublishType>
+            <RelativePath>false</RelativePath>
+            <ShowBullets>true</ShowBullets>
+            <ShowTooltips>true</ShowTooltips>
+            <SlideshowDelay>40</SlideshowDelay>
+            <SlideshowDuration>20</SlideshowDuration>
+            <SoundEnable>false</SoundEnable>
+            <SoundFileName></SoundFileName>
+            <StopOnHover>false</StopOnHover>
+            <TemplateName>geometric</TemplateName>
+            <ThumbHeight>48</ThumbHeight>
+            <ThumbQuality>90</ThumbQuality>
+            <ThumbWidth>0</ThumbWidth>
+            <Thumbnails>false</Thumbnails>
+            <TooltipPos>bottom</TooltipPos>
+            <WatermarkAlign>66</WatermarkAlign>
+            <WatermarkBgColor>#ffffff</WatermarkBgColor>
+            <WatermarkColor>#514242</WatermarkColor>
+            <WatermarkHaveBgColor>true</WatermarkHaveBgColor>
+            <WatermarkImage></WatermarkImage>
+            <WatermarkOpacity>80</WatermarkOpacity>
+            <WatermarkText>cssSlider.com</WatermarkText>
+            <WatermarkType>1</WatermarkType>
+            <color>#ffffff</color>
+            <enableTouch>true</enableTouch>
+            <fullWidth>1</fullWidth>
+            <ieSupport>true</ieSupport>
+            <noFrame>false</noFrame>
+            <showHover>false</showHover>
+        </Settings>
+        <Images RelativePath="false">
+            <Image>
+                <url>C:/Users/Ming-Yi Wang/Documents/GitHub/bernoulli/app/views/homepage/homepage_background.jpg</url>
+                <title>homepage_background</title>
+                <description>LAAAAAB~~~</description>
+            </Image>
+            <Image>
+                <url>C:/Users/Ming-Yi Wang/Documents/GitHub/bernoulli/app/views/homepage/Water-Bubbles-2560x1600.jpg</url>
+                <title>Water-Bubbles-2560x1600</title>
+            </Image>
+        </Images>
+    </Gallery>
+</VisualLightBox>

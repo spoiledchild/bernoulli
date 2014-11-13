@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  research_introduciton: MyText
+  research_topic: MyString
+  research_topic_en: MyString
+  research_details: MyText
+  research_details_en: MyText
+  current_projects: MyText
+
+two:
+  research_introduciton: MyText
+  research_topic: MyString
+  research_topic_en: MyString
+  research_details: MyText
+  research_details_en: MyText
+  current_projects: MyText
